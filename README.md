@@ -8,3 +8,6 @@ return 0;
     2. gcc your_program.c -o your_program
 * Run
     1. ./your_program
+ 
+* to make print and scan work in Gitbash
+      1. setbuf(stdout, NULL);
