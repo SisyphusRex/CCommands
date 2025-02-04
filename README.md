@@ -11,3 +11,6 @@ return 0;
  
 * to make print and scan work in Gitbash
       1. setbuf(stdout, NULL);
+* to stop input in loop
+      1. fflush(stdin);
+      2. put at end of loop
