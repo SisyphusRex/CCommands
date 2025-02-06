@@ -10,10 +10,10 @@ return 0;
     1. ./your_program
  
 * to make print and scan work in Gitbash
-      1. setbuf(stdout, NULL);
+  1. setbuf(stdout, NULL);
 * to stop input in loop
-      1. fflush(stdin);
-      2. put at end of loop
+    1. fflush(stdin);
+    2. put at end of loop
       * EDIT:
           1. fflush(stdin) for some reason doesn't work
           2. do this scanf(" %c", inputChar); with space before %c:
