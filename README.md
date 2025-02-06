@@ -14,3 +14,14 @@ return 0;
 * to stop input in loop
       1. fflush(stdin);
       2. put at end of loop
+      * EDIT:
+          1. fflush(stdin) for some reason doesn't work
+          2. do this:
+              * while (inputChar != '#')
+    {
+
+        printf("You entered %c.\n", inputChar);
+        scanf(" %c", &inputChar);
+    }
+
+  
