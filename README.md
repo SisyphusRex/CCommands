@@ -22,9 +22,11 @@ return 0;
       * scanf(" %c", &inputChar);
   }
 
-  ```while (inputChar != '#')
+  ```
+  while (inputChar != '#')
     {
 
         printf("You entered %c.\n", inputChar);
         scanf(" %c", &inputChar);
-    }```
+    }
+  ```
