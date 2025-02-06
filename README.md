@@ -17,9 +17,9 @@ return 0;
       * EDIT:
           1. fflush(stdin) for some reason doesn't work
           2. do this scanf(" %c", inputChar); with space before %c:
-  while (inputChar != '#') {
-  printf("You entered %c.\n", inputChar);
-  scanf(" %c", &inputChar);
+  * while (inputChar != '#') {
+      * printf("You entered %c.\n", inputChar);
+      * scanf(" %c", &inputChar);
   }
 
   
