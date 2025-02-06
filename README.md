@@ -16,12 +16,10 @@ return 0;
       2. put at end of loop
       * EDIT:
           1. fflush(stdin) for some reason doesn't work
-          2. do this:
-              * while (inputChar != '#')
-    {
-
-        printf("You entered %c.\n", inputChar);
-        scanf(" %c", &inputChar);
-    }
+          2. do this scanf(" %c", inputChar); with space before %c:
+  while (inputChar != '#') {
+  printf("You entered %c.\n", inputChar);
+  scanf(" %c", &inputChar);
+  }
 
   
