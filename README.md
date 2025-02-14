@@ -9,6 +9,23 @@ return 0;
 * Run
     1. ./your_program
 
+* to make print and scan work in Gitbash
+  1. setbuf(stdout, NULL);
+* to stop input in loop
+    1. fflush(stdin);
+    2. put at end of loop
+      * EDIT:
+          1. fflush(stdin) for some reason doesn't work
+          2. do this scanf(" %c", inputChar); with space before %c:
+
+  ```
+  while (inputChar != '#')
+    {
+
+        printf("You entered %c.\n", inputChar);
+        scanf(" %c", &inputChar);
+    }
+  ```
 * to scan string into array of strings
     1. char inputStr[100];
     2. char stringArray[20][100];
