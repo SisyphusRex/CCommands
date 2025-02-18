@@ -33,3 +33,16 @@ return 0;
     * 100: length of strings
     3. scanf("%s", &inputStr);
     4. strcpy(stringArray[i], inputStr);
+
+* pass by pointer
+    ```
+    void DoSomething(int* x) {
+        *x = 2 * x;
+    }
+
+    int main(void) {
+        int myX = 1;
+
+        DoSomething(&myX);
+    }
+    ```
