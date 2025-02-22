@@ -66,3 +66,8 @@ return 0;
        return 0;
         }
       ```
+* header files
+      * quotes for preprocessor to look in current directory
+          * #include "myfile.h"
+      * angle brackets to look in standard library/directory
+          * #include <stdfile.h>
