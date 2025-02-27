@@ -54,7 +54,6 @@ return 0;
        printf("Enter your name: \n");
        scanf("%s", userName);
         }
-
         int main(void) {
        int userAge;
        char userName[30];
