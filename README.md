@@ -46,3 +46,17 @@ return 0;
         DoSomething(&myX);
     }
     ```
+
+* pass string
+    ```
+    void CreateAcronym(char userPhrase[], char userAcronym[]) {
+    }
+    int main() {
+
+   char inputPhrase[50];
+   char acronym[50];
+
+   fgets(inputPhrase, 50, stdin);
+
+   CreateAcronym(inputPhrase, acronym);
+   ```
