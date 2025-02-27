@@ -48,15 +48,15 @@ return 0;
     ```
 * except string
       ```
-      void GetUserInfo(int* userAge, char userName[]) {
+        void GetUserInfo(int* userAge, char userName[]) {
        printf("Enter your age: \n");
        scanf("%d", userAge);
        printf("Enter your name: \n");
        scanf("%s", userName);
         }
         int main(void) {
-       int userAge;
-       char userName[30];
+        int userAge;
+        char userName[30];
 
        GetUserInfo(&userAge, userName);
 
@@ -65,6 +65,7 @@ return 0;
        return 0;
         }
       ```
+
 
 * header files
       * quotes for preprocessor to look in current directory
