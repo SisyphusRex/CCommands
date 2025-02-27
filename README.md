@@ -46,21 +46,7 @@ return 0;
         DoSomething(&myX);
     }
     ```
-
-* pass string
-    ```
-    void CreateAcronym(char userPhrase[], char userAcronym[]) {
-    }
-    int main() {
-
-   char inputPhrase[50];
-   char acronym[50];
-
-   fgets(inputPhrase, 50, stdin);
-
-   CreateAcronym(inputPhrase, acronym);
-   ```
-    * except string
+* except string
       ```
       void GetUserInfo(int* userAge, char userName[]) {
        printf("Enter your age: \n");
@@ -80,6 +66,7 @@ return 0;
        return 0;
         }
       ```
+
 * header files
       * quotes for preprocessor to look in current directory
           * #include "myfile.h"
