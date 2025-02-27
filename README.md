@@ -60,3 +60,28 @@ return 0;
 
    CreateAcronym(inputPhrase, acronym);
    ```
+    * except string
+      ```
+      void GetUserInfo(int* userAge, char userName[]) {
+       printf("Enter your age: \n");
+       scanf("%d", userAge);
+       printf("Enter your name: \n");
+       scanf("%s", userName);
+        }
+
+        int main(void) {
+       int userAge;
+       char userName[30];
+
+       GetUserInfo(&userAge, userName);
+
+       printf("%s is %d years old.\n", userName, userAge);
+
+       return 0;
+        }
+      ```
+* header files
+      * quotes for preprocessor to look in current directory
+          * #include "myfile.h"
+      * angle brackets to look in standard library/directory
+          * #include <stdfile.h>
