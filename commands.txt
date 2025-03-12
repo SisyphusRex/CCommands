@@ -1,0 +1,7 @@
+Struct vs Class
+  Structs hold value in the stack
+  Class holds reference in stack to value in heap
+
+Create a Struct
+  typedef struct struct_name {
+}
