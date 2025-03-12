@@ -3,5 +3,6 @@ Struct vs Class
   Class holds reference in stack to value in heap
 
 Create a Struct
-  typedef struct struct_name {
-}
+  typedef struct struct_name_struct {
+  ...
+} StructName;
