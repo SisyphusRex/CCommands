@@ -1,3 +1,8 @@
+For compiling on windows, you could download mingw64 but it doesnt work well
+    I recommend using a Linux VM or Windows Subsystem Linux (WSL) 
+    C compiles much better
+
+
 1. #include <stdio.h>
 2. int main() {
 return 0;
