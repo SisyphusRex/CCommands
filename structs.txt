@@ -1,0 +1,25 @@
+StructName.h :
+  contains struct definition, data members, and function declarations
+
+  #ifndef STOREITEM_H
+  #define STOREITEM_H
+
+  typedef struct StoreItem_struct {
+   int weightOunces;
+   // (other fields omitted for brevity)
+  } StoreItem;
+
+  void StoreItemSetWeightOunces
+        (StoreItem* storeItem, int weightOunces);
+  void StoreItemPrint(StoreItem storeItem);
+
+  #endif
+
+StructName.c
+  contains function definitions
+
+  #include <stdio.h>
+  #include "StructName.h"
+
+** Best Practice: Create a .h and .c for each struct
+
