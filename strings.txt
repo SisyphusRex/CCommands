@@ -1,0 +1,14 @@
+When passing strings to functions:
+  1. You can pass pointer to first char in string:
+    student = SetName("Felix", student);
+    Student SetName(char *name, Student s) {
+    strcpy(s.name, name);
+    return s;
+    }
+
+  2. Or pass string array:
+    student = SetName("Felix", student);
+    Student SetName(char name[], Student s) {
+      strcpy(s.name, name);
+      return s;
+    }
