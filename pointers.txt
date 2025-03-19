@@ -19,5 +19,29 @@ Increment Operator ++
         int myNum = 2;
         int* ptr = &myNum;
         (*ptr)++;
-    2. To increment memory address
-        *ptr++;
+    2. Increment pointer
+        *p++ OR *(p++)
+        but returns original value
+
+Printing Memory address
+    %p is format specifier for pointer memory address in hexadecimal
+    expects void* type
+    printf("%p", (void*) ptr)
+    OR
+    printf("%p", (void*) myVal);
+
+Always initialize pointer:
+    dereferencing a null or uninitialized pointer leads to run time error
+        char* ptr;
+        *ptr = 'A';  <---assigns value to unknown address
+        printf("%c", *ptr);
+        RUNTIME error
+
+malloc():
+    memory allocation of some bytes and returns void* pointer
+    use sizeof() to get bytes needed for type
+        int* myPtr = NULL;
+        myPtr = (int*) malloc(sizeof(int));
+free():
+    opposite of malloc()
+    free(myPtr);
