@@ -13,3 +13,11 @@ Referencing and Dereferencing
         1. myNum = 3;
         OR
         2. *ptr = 3;
+
+Increment Operator ++
+    1. To increment value:
+        int myNum = 2;
+        int* ptr = &myNum;
+        (*ptr)++;
+    2. To increment memory address
+        *ptr++;
