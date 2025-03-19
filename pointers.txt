@@ -2,11 +2,11 @@ Referencing and Dereferencing
     Referencing
         Act of obtaining memory address of variable using &
             int myNum = 2;
-            int *ptr = &myNum;
+            int* ptr = &myNum;
     Dereferencing
         Act of obtaining value at memory address held by pointer
             int myNum = 2;
-            int *ptr = &myNum;
+            int* ptr = &myNum;
             int value = *ptr;
 
     You can change myNum by:
