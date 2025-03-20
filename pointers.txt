@@ -45,3 +45,14 @@ malloc():
 free():
     opposite of malloc()
     free(myPtr);
+
+Struct Pointer Member Access:
+    typedef struct Fruit_struct {
+        int hasSeeds;
+    } Fruit;
+    Fruit* orange;
+    orange->hasSeeds = 1; OR (*orange).hasSeeds = 1;
+
+    orange->hasSeeds
+    is equivalent to 
+    (*orange).hasSeeds
