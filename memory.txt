@@ -1,3 +1,6 @@
+Code:
+  region where program instructions are stored
+
 Static Memory:
   global variables (declared outside a function) and static local variables are allocated here
   variables are allocated once and stay in same memory location
