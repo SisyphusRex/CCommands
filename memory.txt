@@ -12,6 +12,6 @@ Stack:
   function's local variables are allocated here during function call
 
 Heap:
-  "free store"
+  "free store": can be explicitly controlled
   where malloc allocates memory and free deallocates memory
   
