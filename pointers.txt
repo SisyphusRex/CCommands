@@ -56,3 +56,7 @@ Struct Pointer Member Access:
     orange->hasSeeds
     is equivalent to 
     (*orange).hasSeeds
+
+realloc():
+    increase or decrease pointer memory block
+    myPtr = (type*)realloc(myPtr, numElements * sizeof(type));
