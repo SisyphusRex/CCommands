@@ -1,0 +1,14 @@
+Static Memory:
+  global variables (declared outside a function) and static local variables are allocated here
+  variables are allocated once and stay in same memory location
+
+Stack:
+  "automatic memory": automatic allocation and deallocation
+    function call allocates
+    return deallocates
+  function's local variables are allocated here during function call
+
+Heap:
+  "free store"
+  where malloc allocates memory and free deallocates memory
+  
