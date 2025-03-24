@@ -2,3 +2,26 @@ A vector is an Abstract Data Type that stores an ordered list of elements of a s
 
 Prefix for all vector functions:
     vector_
+
+EXAMPLE:
+
+    #ifndef VECTOR_H
+    #define VECTOR_H
+    
+    typedef struct vector_struct {
+        <type>* elements;
+        unsigned int size;
+    } vector;
+
+
+    void vector_create(vector*v, unsigned int vectorSize);
+    ...
+    ...
+    more vector functions
+    ...
+    ...
+
+    #endif
+
+
+    
