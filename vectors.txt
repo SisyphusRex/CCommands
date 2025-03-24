@@ -1,0 +1,4 @@
+A vector is an Abstract Data Type that stores an ordered list of elements of a specific data type
+
+Prefix for all vector functions:
+    vector_
