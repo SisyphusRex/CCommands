@@ -36,6 +36,54 @@ IntNode* IntNode_GetNext(IntNode* thisNode) {
    return thisNode->nextNodePtr;
 }
 
+/* ******** New functions ********/
+
+// Return the length of the list
+int IntNode_Length(IntNode* firstNode) {
+   int length = 0;
+   IntNode* currentNode = firstNode;
+   while(currentNode != NULL) {
+      ++length;
+      currentNode = currentNode->nextNodePtr;
+   }
+
+   return length;
+}
+
+// Return the Nth element of the list. First node is 1.
+IntNode* IntNode_GetNth(IntNode* firstNode, int pos) {
+   /* Type your code here. */
+   int count = 1;
+   IntNode* currentNode = firstNode;
+   while (count != pos) {
+    currentNode = currentNode->nextNodePtr;
+    count++;
+   }
+   return currentNode;
+}
+
+// Print the entire list starting at firstNode
+void IntNode_PrintList(IntNode* firstNode) {
+   /* Type your code here. */
+   IntNode* currentNode = firstNode;
+   while (currentNode != NULL) {
+    printf("%d ", currentNode->dataVal);
+    currentNode = currentNode->nextNodePtr;
+   }
+}
+
+// Sum the numbers in the list
+int IntNode_SumList(IntNode* firstNode) {
+   /* Type your code here. */
+   IntNode* currentNode = firstNode;
+   int sum = 0;
+   while (currentNode != NULL) {
+    sum += currentNode->dataVal;
+    currentNode = currentNode->nextNodePtr;
+   }
+   return sum;
+}
+
 int main(void) {
    IntNode* headObj  = NULL; // Create IntNode objects
    IntNode* nodeObj1 = NULL;
