@@ -63,3 +63,4 @@ realloc():
 
 Array Pointers:
     arr[x] is equivalent to *(arr + x)
+    int* myInts is equivalent to int myInts[]
