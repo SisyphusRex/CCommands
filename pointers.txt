@@ -60,3 +60,6 @@ Struct Pointer Member Access:
 realloc():
     increase or decrease pointer memory block
     myPtr = (type*)realloc(myPtr, numElements * sizeof(type));
+
+Array Pointers:
+    arr[x] is equivalent to *(arr + x)
