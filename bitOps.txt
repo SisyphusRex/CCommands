@@ -3,3 +3,19 @@ Negative ints in bits:
   take positive int bit representation
   invert all bits
   add 1 (as in one int, not bit) to final and ignore overflow
+
+void printBits(int num) {
+  unsigned int temp = num;
+  for (int i = sizeof(int) * 8 -1; i >=0; i--) {
+    printf("%d", (temp >> i) & 1);
+  }
+  printf("\n");
+  return
+}
+
+Switch Values:
+  int num1, num2;
+  num1 = num1 ^ num2;
+  num2 = num1 ^ num2;
+  num1 = num1 ^ num2;
+  
