@@ -1,0 +1,5 @@
+Negative ints in bits:
+  Twos complement representation
+  take positive int bit representation
+  invert all bits
+  add 1 (as in one int, not bit) to final and ignore overflow
