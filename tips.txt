@@ -1,0 +1,5 @@
+Calculate Size of Array (number of elements)
+  --------
+  int numberElements = sizeof(arr) / sizeof(arr[0])
+  --------
+  this gets the size of the array in bytes and then divides it by the size of the data type, rendering number of that data type
