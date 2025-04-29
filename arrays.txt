@@ -1,0 +1,11 @@
+To get number of elements in array:
+  int count;
+  int arr[] = {........};
+  count = sizeof(arr)/sizeof(arr[0]);
+
+Array of Strings
+  char *myStrings[] = {"...", "....", "...", NULL}   <---- NULL is required to get size of array because sizeof(myStrings) is just size of ONE pointer
+  int count = 0;
+  while (myStrings[count] != NULL) {
+    count++;
+  }
