@@ -23,3 +23,7 @@ StructName.c
 
 ** Best Practice: Create a .h and .c for each struct
 
+Static Struct outside of main():
+  define struct
+  declare AND initialize struct with name and variable values on one line
+  YOU CANNOT initialize variables separate from declaration in Static.
