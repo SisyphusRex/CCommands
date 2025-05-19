@@ -1,1 +1,1 @@
-
+Vectors are like resizable arrays.
