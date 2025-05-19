@@ -6,3 +6,6 @@ Create a Struct
   typedef struct struct_name_struct {
   ...
 } StructName;
+
+Vector
+  a vector is a resizable array, similar to linked list?
